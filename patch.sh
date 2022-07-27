@@ -164,7 +164,7 @@ main() {
     fi
 
     ## link to download $what_to_patch
-    apk_link=https://github.com/XDream8/revanced-creator/releases/download/v0.1/$apk_filename
+    apk_link=https://github.com/0xtbug/revanced-creator/releases/download/v0.1/$apk_filename
 
     ## downloader
     if [ -z "$downloader" ] && [ "$(command -v curl)" ]; then
